@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "array.sln",
+    "projects": [
+      "array\\array.csproj"
+    ]
+  }
+}
