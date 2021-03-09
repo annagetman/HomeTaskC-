@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HomeTask
 {
-   public static class MyArray
+   public static class Array
     {
 
         public static int GetMaxNumber(int[] arr1)

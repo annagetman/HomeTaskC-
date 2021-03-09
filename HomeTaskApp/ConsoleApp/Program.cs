@@ -9,11 +9,11 @@ namespace ConsoleApp
         {
             //Variables
 
-            int var = Variables.SolveEquation(2, 6);
-            Console.WriteLine(var);
+            //int var = Variables.SolveEquation(2, 6);
+            //Console.WriteLine(var);
 
-            int numA = 2;
-            int numB = 5;
+            //int numA = 2;
+            //int numB = 5;
             //int var2 = Variables.SwapVariables(ref numA, numB);
             //Console.WriteLine(var2);
 
@@ -23,8 +23,31 @@ namespace ConsoleApp
             //int numX = Variables.SolveLinearEquation(2, 6, 5);
             //Console.WriteLine(numX);
 
-            int var5 = Variables.EquationStraightLine(2, 6, 5, 2);
-            Console.WriteLine(var5);
+            //int var5 = Variables.EquationStraightLine(2, 6, 5, 2);
+            //Console.WriteLine(var5);
+
+
+
+            //Branching
+
+            int branch = Branching.CompareCount(2, 6);
+            Console.WriteLine(branch);
+
+            int branch2 = Branching.DefineQuarter(5, 6);
+            Console.WriteLine(branch2);
+
+            //int branch3 = Branching.OutputAscending(5, 6, 8);
+            //Console.WriteLine(branch3);
+
+            string v = Branching.PrintUppercaseEntry(8);
+            string branch5 = v;
+            Console.WriteLine(branch5);
+
+
+
+
+
+
 
             //int[] arr1= new int[5] { 5,4,8,7,5};
             //int ff=0;

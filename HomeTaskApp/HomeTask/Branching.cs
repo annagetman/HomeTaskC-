@@ -27,81 +27,83 @@ namespace HomeTask
             return res;
         }
 
-        public static string DefineQuarter(int numX, int numY)
+        public static int DefineQuarter(int numX, int numY)
         {
-            string res = String.Empty;
+            int res = 0; ;
             if (numY < 0 && numX < 0)
             {
-                res ="3 quarter";
+                res =3;
             }
             if (numX > 0 && numY > 0)
             {
-                res = "1 quarter";
+                res = 1;
             }
             if (numY > 0 && numX < 0)
             {
-                res = "2 quarter";
+                res = 2;
             }
             if (numX > 0 && numY < 0)
             {
-                res = "4 quarter";
+                res = 4;
             }
             return res;
         }
 
-        public static string OutputAscending(int numA, int numB, int numC)
+        public static (int numA, int numB, int numC) OutputAscending(int numA, int numB, int numC)
         {
-            string res = String.Empty;
             if (numA < numB && numB < numC)
             {
-                res=$"{numA}, {numB}, {numC}"; //ABC
+                return (numA, numB, numC); //ABC
             }
             else if (numA < numC && numC < numB)
             {
-                res = $"{numA}, {numC}, {numB}";//ACB
+                return (numA, numC, numB); //ACB
             }
             else if (numB < numA && numA < numC)
             {
-                res = $"{numB}, {numA}, {numC}";//BAC
+                return (numB, numA, numC); //BAC
             }
             else if (numB < numC && numC < numA)
             {
-                res = $"{numB}, {numC}, {numA}";//BCA
+                return (numB, numC, numA); //BCA
             }
             else if (numC < numA && numA < numB)
             {
-                res = $"{numC}, {numA}, {numB}";//CAB
+                return (numC, numA, numB); //CAB
             }
-            else if (numC < numB && numB < numA)
+            else //if (numC < numB && numB < numA)
             {
-                res = $"{numC}, {numB}, {numA}";//CBA
+                return (numC, numB, numA); //CBA
             }
-            return res;
         }
 
-        //public static string SolveQuadraticEquation(int numA, int numB, int numC)
-        //{
-        //    double D = Math.Sqrt((numB * numB) - (4 * numA * numC)); // D = b2 − 4ac.
-        //    string res = String.Empty;
-        //    if (D == 0) // один корень
-        //    {
-        //        //Console.WriteLine("D=0 -один корень:");
-        //        double x = -numB / (2 * numA);
-        //        res = $"x = {0}-один корень";
-        //    }
-        //    else if (D > 0) //будет 2 корня
-        //    {
-        //        double x1, x2;
-        //        x1 = (-numB + D) / (2 * numA);
-        //        x2 = (-numB - D) / (2 * numA);
-        //        res = $"D={0}, x1={1}, x2={2}";
-        //    }
-        //    else
-        //    {
-        //        res = $"D<0 - корней нет "; //корней нет
-        //    }
-        //}
+        public static (string res, double D, double x1, double x2) SolveQuadraticEquation(int numA, int numB, int numC)
+        {
+            double D = Math.Sqrt((numB * numB) - (4 * numA * numC)); // D = b2 − 4ac.
+            string res = String.Empty;
+            if (D == 0) // один корень
+            {
+                //Console.WriteLine("D=0 -один корень:");
+                double x = -numB / (2 * numA);
+              res = $"x = {0}-один корень";
+                return res;
+            }
+            else if (D > 0) //будет 2 корня
+            {
+                double x1, x2;
+                x1 = (-numB + D) / (2 * numA);
+                x2 = (-numB - D) / (2 * numA);
+                //res = $"D={0}, x1={x1}, x2={x2}";
+                return x1, x2;
+            }
+            else
+            {
+                res = "D<0 - корней нет";
+               return res; //корней нет
+            }
+        }
 
+        
         public static string PrintUppercaseEntry(int numtwise)
         {
             numtwise = Convert.ToInt32(Console.ReadLine());
@@ -112,43 +114,46 @@ namespace HomeTask
 
             string doubleNum = string.Empty;
 
-
-            if (numtwise == 11)
+            if (numtwise > 10 && numtwise > 20)
             {
-                doubleNum = "одинадцать ";
+                if (numtwise == 11)
+                {
+                    doubleNum = "одинадцать ";
+                }
+                if (numtwise == 12)
+                {
+                    doubleNum = "двенадцать ";
+                }
+                if (numtwise == 13)
+                {
+                    doubleNum = "тринадцать ";
+                }
+                if (numtwise == 14)
+                {
+                    doubleNum = "четирнадцать ";
+                }
+                if (numtwise == 15)
+                {
+                    doubleNum = "пятнадцать ";
+                }
+                if (numtwise == 16)
+                {
+                    doubleNum = "шестнадцать ";
+                }
+                if (numtwise == 17)
+                {
+                    doubleNum = "семьнадцать ";
+                }
+                if (numtwise == 18)
+                {
+                    doubleNum = "восемьнадцать ";
+                }
+                if (numtwise == 19)
+                {
+                    doubleNum = "девятнадцать ";
+                }
             }
-            if (numtwise == 12)
-            {
-                doubleNum = "двенадцать ";
-            }
-            if (numtwise == 13)
-            {
-                doubleNum = "тринадцать ";
-            }
-            if (numtwise == 14)
-            {
-                doubleNum = "четирнадцать ";
-            }
-            if (numtwise == 15)
-            {
-                doubleNum = "пятнадцать ";
-            }
-            if (numtwise == 16)
-            {
-                doubleNum = "шестнадцать ";
-            }
-            if (numtwise == 17)
-            {
-                doubleNum = "семьнадцать ";
-            }
-            if (numtwise == 18)
-            {
-                doubleNum = "восемьнадцать ";
-            }
-            if (numtwise == 19)
-            {
-                doubleNum = "девятнадцать ";
-            }
+            else
 
             res=doubleNum;
 
