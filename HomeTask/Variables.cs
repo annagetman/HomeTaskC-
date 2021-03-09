@@ -4,7 +4,7 @@ namespace HomeTask
 {
     public static class Variables
     {
-
+  
         public static int SolveEquation(int numA, int numB)
         {
             int res = (5 * numA + numB * numB) / (numB - numA);

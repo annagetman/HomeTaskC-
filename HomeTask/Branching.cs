@@ -100,6 +100,7 @@ namespace HomeTask
             {
                 res = $"D<0 - корней нет "; //корней нет
             }
+            return res;
         }
 
         public static string PrintUppercaseEntry(int numtwise)

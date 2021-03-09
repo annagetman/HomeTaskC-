@@ -15,7 +15,7 @@ namespace HomeTask
             return numA;
         }
 
-        double numA, numB, numC, numN;
+      //  double numA, numB, numC, numN;
 
 
         public static string DisplayNumbersThatDivisibleBynumA(int numA)
