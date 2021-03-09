@@ -77,31 +77,31 @@ namespace HomeTask
             }
         }
 
-        public static (string res, double D, double x1, double x2) SolveQuadraticEquation(int numA, int numB, int numC)
-        {
-            double D = Math.Sqrt((numB * numB) - (4 * numA * numC)); // D = b2 − 4ac.
-            string res = String.Empty;
-            if (D == 0) // один корень
-            {
-                //Console.WriteLine("D=0 -один корень:");
-                double x = -numB / (2 * numA);
-              res = $"x = {0}-один корень";
-                return res;
-            }
-            else if (D > 0) //будет 2 корня
-            {
-                double x1, x2;
-                x1 = (-numB + D) / (2 * numA);
-                x2 = (-numB - D) / (2 * numA);
-                //res = $"D={0}, x1={x1}, x2={x2}";
-                return x1, x2;
-            }
-            else
-            {
-                res = "D<0 - корней нет";
-               return res; //корней нет
-            }
-        }
+        //public static (string res, double D, double x1, double x2) SolveQuadraticEquation(int numA, int numB, int numC)
+        //{
+        //    double D = Math.Sqrt((numB * numB) - (4 * numA * numC)); // D = b2 − 4ac.
+        //    string res = String.Empty;
+        //    if (D == 0) // один корень
+        //    {
+        //        //Console.WriteLine("D=0 -один корень:");
+        //        double x = -numB / (2 * numA);
+        //      res = $"x = {0}-один корень";
+        //        return res;
+        //    }
+        //    else if (D > 0) //будет 2 корня
+        //    {
+        //        double x1, x2;
+        //        x1 = (-numB + D) / (2 * numA);
+        //        x2 = (-numB - D) / (2 * numA);
+        //        //res = $"D={0}, x1={x1}, x2={x2}";
+        //        return x1, x2;
+        //    }
+        //    else
+        //    {
+        //        res = "D<0 - корней нет";
+        //       return res; //корней нет
+        //    }
+        //}
 
         
         public static string PrintUppercaseEntry(int numtwise)

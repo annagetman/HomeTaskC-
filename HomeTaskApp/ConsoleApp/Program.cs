@@ -30,19 +30,34 @@ namespace ConsoleApp
 
             //Branching
 
-            int branch = Branching.CompareCount(2, 6);
-            Console.WriteLine(branch);
+            //int branch = Branching.CompareCount(2, 6);
+            //Console.WriteLine(branch);
 
-            int branch2 = Branching.DefineQuarter(5, 6);
-            Console.WriteLine(branch2);
+            //int branch2 = Branching.DefineQuarter(5, 6);
+            //Console.WriteLine(branch2);
 
             //int branch3 = Branching.OutputAscending(5, 6, 8);
             //Console.WriteLine(branch3);
 
-            string v = Branching.PrintUppercaseEntry(8);
-            string branch5 = v;
-            Console.WriteLine(branch5);
+            //string v = Branching.PrintUppercaseEntry(8);
+            //string branch5 = v;
+            //Console.WriteLine(branch5);
 
+
+            //Cycle
+
+            //int cyc = Cycle.SquareNumber(5, 6);
+            //Console.WriteLine(cyc);
+
+            //double cyc2 = Cycle.FindDivisorEuclidAlgorithm(5, 4);
+            //Console.WriteLine(cyc2);
+            int cyc3 = Cycle.FindPositiveInteger(2);
+            Console.WriteLine(cyc3);
+
+            string cyc4 = Cycle.FindNumberOddDigitsOfThisNumber(2245);
+            Console.WriteLine(cyc4);
+
+            
 
 
 
