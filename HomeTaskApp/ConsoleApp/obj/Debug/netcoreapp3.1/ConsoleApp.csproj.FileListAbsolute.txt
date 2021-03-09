@@ -1,0 +1,16 @@
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\HomeTask.dll
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\bin\Debug\netcoreapp3.1\HomeTask.pdb
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CopyComplete
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+G:\ann\work\C#\HomeTaskApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache

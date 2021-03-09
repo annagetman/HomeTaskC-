@@ -1,4 +1,0 @@
-G:\ann\work\C#\HomeTask\obj\Debug\netcoreapp3.1\HomeTask.csprojAssemblyReference.cache
-G:\ann\work\C#\HomeTask\obj\Debug\netcoreapp3.1\HomeTask.AssemblyInfoInputs.cache
-G:\ann\work\C#\HomeTask\obj\Debug\netcoreapp3.1\HomeTask.AssemblyInfo.cs
-G:\ann\work\C#\HomeTask\obj\Debug\netcoreapp3.1\HomeTask.csproj.CoreCompileInputs.cache
