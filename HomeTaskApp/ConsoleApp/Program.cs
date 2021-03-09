@@ -54,7 +54,7 @@ namespace ConsoleApp
             int cyc3 = Cycle.FindPositiveInteger(2);
             Console.WriteLine(cyc3);
 
-            string cyc4 = Cycle.FindNumberOddDigitsOfThisNumber(2245);
+            string cyc4 = DoubleCycle.FindMaxIndexOfArrayElement();
             Console.WriteLine(cyc4);
 
             
