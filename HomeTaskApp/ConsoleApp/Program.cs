@@ -54,8 +54,8 @@ namespace ConsoleApp
             int cyc3 = Cycle.FindPositiveInteger(2);
             Console.WriteLine(cyc3);
 
-            string cyc4 = DoubleCycle.FindMaxIndexOfArrayElement();
-            Console.WriteLine(cyc4);
+            //string cyc4 = DoubleCycle.FindMaxIndexOfArrayElement();
+            //Console.WriteLine(cyc4);
 
             
 
