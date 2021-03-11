@@ -23,13 +23,7 @@ namespace HomeTask
             numB = numC;
         }
 
-        // public static (int Division, int RemainderDivision) GetDivisionAndRemainder(int numA, int numB)
-        //{
-        //    int Division = numB / numA;
-        //    int RemainderDivision = numB % numA;
-        //    return (Division, RemainderDivision);
-        //}
-        public static int[] GetDivisionAndRemainder2(int numA, int numB)
+        public static int[] GetDivisionAndRemainder(int numA, int numB)
         {
             int division = numB / numA;
             int remainderDivision = numB % numA;
@@ -45,7 +39,20 @@ namespace HomeTask
             return numX;
         }
 
-        public static (double k, double b) EquationStraightLine(int x1, int y1, int x2, int y2)
+        //public static (double k, double b) EquationStraightLine(int x1, int y1, int x2, int y2)
+        //{
+        //    if (x1 == x2)
+        //    {
+        //        throw new DivideByZeroException("x1-x2=0");
+        //    }
+        //    double k = (y1 - y2) / (x1 - x2);
+        //    double b = y2 - k * x2;
+        //    return (k, b);
+        //}
+
+
+
+        public static double[] EquationStraightLine2(int x1, int y1, int x2, int y2)
         {
             if (x1 == x2)
             {
@@ -53,7 +60,13 @@ namespace HomeTask
             }
             double k = (y1 - y2) / (x1 - x2);
             double b = y2 - k * x2;
-            return (k, b);
+            return new double[] {
+                k, b
+            };
         }
+
+
+
+
     }
 }
