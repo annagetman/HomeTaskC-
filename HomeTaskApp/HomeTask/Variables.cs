@@ -11,11 +11,11 @@ namespace HomeTask
             {
                 throw new DivideByZeroException("numB should not be equal to numA");
             }
-            int res = (5 * numA + numB * numB) / (numB - numA);
+            int res = (5 * (numA + numB) *(numA+numB)) / (numB - numA);
             return res;
         }
 
-        public static void SwapVariables(ref int numA, int numB)
+        public static void SwapVariables(ref int numA, ref int numB)
         {
             int numC;
             numC = numA;
@@ -23,12 +23,21 @@ namespace HomeTask
             numB = numC;
         }
 
-        public static (int Division, int RemainderDivision) GetDivisionAndRemainder(int numA, int numB)
+        // public static (int Division, int RemainderDivision) GetDivisionAndRemainder(int numA, int numB)
+        //{
+        //    int Division = numB / numA;
+        //    int RemainderDivision = numB % numA;
+        //    return (Division, RemainderDivision);
+        //}
+        public static int[] GetDivisionAndRemainder2(int numA, int numB)
         {
-            int Division = numB / numA;
-            int RemainderDivision = numB % numA;
-            return (Division, RemainderDivision);
+            int division = numB / numA;
+            int remainderDivision = numB % numA;
+            return new int[] { 
+                division, remainderDivision 
+            };
         }
+
 
         public static double SolveLinearEquation(double numA, double numB, double numC)
         {

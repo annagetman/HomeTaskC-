@@ -51,6 +51,7 @@ namespace ConsoleApp
 
             //double cyc2 = Cycle.FindDivisorEuclidAlgorithm(5, 4);
             //Console.WriteLine(cyc2);
+
             int cyc3 = Cycle.FindPositiveInteger(2);
             Console.WriteLine(cyc3);
 
