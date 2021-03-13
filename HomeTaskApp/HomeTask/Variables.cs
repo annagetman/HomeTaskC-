@@ -42,7 +42,7 @@ namespace HomeTask
         }
 
 
-        public static double[] EquationStraightLine2(int x1, int y1, int x2, int y2)
+        public static double[] EquationStraightLine(int x1, int y1, int x2, int y2)
         {
             if (x1 == x2)
             {

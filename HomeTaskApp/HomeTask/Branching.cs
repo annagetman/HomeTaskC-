@@ -100,12 +100,11 @@ namespace HomeTask
                 array = new double[0] { };
             }
             return array;
-        } 
-    }
+        }
 
-        public static string PrintUppercaseEntry( int num)
+        public static string PrintUppercaseEntry(int num)
         {
-            int numtwise =0;
+            int numtwise = 0;
             string res = String.Empty;
 
             int remainder = numtwise % 10;
@@ -154,7 +153,7 @@ namespace HomeTask
             }
             else
 
-            res=doubleNum;
+                res = doubleNum;
 
             string tenStr = string.Empty;
 
@@ -235,4 +234,4 @@ namespace HomeTask
             return res;
         }
     }
-
+}

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeTask", "HomeTask.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "..\ConsoleApp\ConsoleApp.csproj", "{AEF94E1C-67D3-4D02-94E5-EAD10BEA1A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProjecTests", "..\..\HomeTaskC-\NUnitTestProjecTests\NUnitTestProjecTests.csproj", "{6DC98975-37AC-4540-B267-AC6B75ACE826}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProjectTests", "..\NUnitTestProjectTests\NUnitTestProjectTests.csproj", "{857D8BB2-5CAE-411B-909B-763DE2085048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{AEF94E1C-67D3-4D02-94E5-EAD10BEA1A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEF94E1C-67D3-4D02-94E5-EAD10BEA1A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEF94E1C-67D3-4D02-94E5-EAD10BEA1A12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DC98975-37AC-4540-B267-AC6B75ACE826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DC98975-37AC-4540-B267-AC6B75ACE826}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DC98975-37AC-4540-B267-AC6B75ACE826}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DC98975-37AC-4540-B267-AC6B75ACE826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857D8BB2-5CAE-411B-909B-763DE2085048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857D8BB2-5CAE-411B-909B-763DE2085048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857D8BB2-5CAE-411B-909B-763DE2085048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857D8BB2-5CAE-411B-909B-763DE2085048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
