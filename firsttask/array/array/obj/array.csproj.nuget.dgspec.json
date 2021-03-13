@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ann\\work\\C#\\array\\array\\array.csproj": {}
+    "G:\\ann\\work\\C#\\firsttask\\array\\array\\array.csproj": {}
   },
   "projects": {
-    "G:\\ann\\work\\C#\\array\\array\\array.csproj": {
+    "G:\\ann\\work\\C#\\firsttask\\array\\array\\array.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ann\\work\\C#\\array\\array\\array.csproj",
+        "projectUniqueName": "G:\\ann\\work\\C#\\firsttask\\array\\array\\array.csproj",
         "projectName": "array",
-        "projectPath": "G:\\ann\\work\\C#\\array\\array\\array.csproj",
+        "projectPath": "G:\\ann\\work\\C#\\firsttask\\array\\array\\array.csproj",
         "packagesPath": "C:\\Users\\ann\\.nuget\\packages\\",
-        "outputPath": "G:\\ann\\work\\C#\\array\\array\\obj\\",
+        "outputPath": "G:\\ann\\work\\C#\\firsttask\\array\\array\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ann\\AppData\\Roaming\\NuGet\\NuGet.Config",

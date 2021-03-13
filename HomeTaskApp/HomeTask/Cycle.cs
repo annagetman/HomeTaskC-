@@ -15,112 +15,109 @@ namespace HomeTask
             return numA;
         }
 
-        //double numA, numB, numC, numN;
+        public static int[] DisplayNumbersThatDivisibleBynumA(int numA)
+        {
+            int[] res = new int[0];
+            for (int i = 1; i <= 1000; i++)
+            {
+                if (i % numA == 0)
+                {
+                    res[i++] =i;
+                }
+            }
+            return res;
+        }
+
+        public static int[] FindPositiveNumbers(int numA)
+        {
+            int[] res = new int[0];
+            for (int i = 1; i < numA; i++)
+            {
+                if (numA > 0 && i * i < numA)
+                {
+                    res[i++] = i;
+                }
+            }
+            return res;
+
+        }
+
+        public static int[] PrintGreatestDivisor(int numA)
+        {
+            double del;
+            int[] res = new int[0];
+            for (int i = 0; i < numA; i++)
+            {
+                if (numA % i == 0)
+                {
+                    res[i++] = i;
+                }
+            }
+            return res;
+        }
 
 
-        //public static int DisplayNumbersThatDivisibleBynumA(int numA)
-        //{
-        //    int[] res = new int[0];
-        //    for (int i = 1; i <= 1000; i++)
-        //    {
-        //        if (i % numA == 0)
-        //        {
-        //            res += i;
-        //        }
-        //    }
-        //    return res;
-        //}
-
-        //public static string FindPositiveNumbers(int numA)
-        //{
-        //    int[] res = new int[0];
-        //    for (int i = 1; i < numA; i++)
-        //    {
-        //        if (numA > 0 && i * i < numA)
-        //        {
-        //            res += i;
-        //        }
-        //    }
-        //    return res;
-
-        //}
-
-        //public static string PrintGreatestDivisor(int numA)
-        //{
-        //    double del;
-        //    int[] res = new int[0];
-        //    for (int i = 0; i < numA; i++)
-        //    {
-        //        if (numA % i == 0)
-        //        {
-        //            res += i;
-        //        }
-        //    }
-        //    return res;
-        //}
+        public static int[] PrintNumbersDivisibleBy7(int numA, int numB)
+        {
+            int[] res = new int[0];
+            if (numA < numB)
+            {
+                for (int i = 1; i < numB; i++)
+                {
+                    if (i % 7 == 0)
+                    {
+                        res[i++] = i;
+                    }
+                }
+            }
+            return res;
+        }
 
 
-        //public static string PrintNumbersDivisibleBy7(int numA, int numB)
-        //{
-        //    int[] res = new int[0];
-        //    if (numA < numB)
-        //    {
-        //        for (int i = 1; i < numB; i++)
-        //        {
-        //            if (i % 7 == 0)
-        //            {
-        //                res += i;
-        //            }
-        //        }
-        //    }
-        //    return res;
-        //}
+        public static string PrintNumbersfibonacci(int numN)
+        {
+            string res = string.Empty;
+            if (numN > 48 || numN <= 0)
+            {
+                res = "Error, very large number!";
+            }
+            else
+            {
+                int perv = 1;
+                int vtor = 1;
+                int sum = 0;
+                int i = 2;
+                while (i <= numN)
+                {
+                    sum = perv + vtor;
+                    perv = vtor;
+                    vtor = sum;
+                    i++;
+                }
+                res = $"Number of row Fibonachi- {numN} {perv}";
+            }
+            return res;
+        }
 
 
-        //public static string PrintNumbersfibonacci(int numN)
-        //{
-        //    string res = string.Empty;
-        //    if (numN > 48 || numN <= 0)
-        //    {
-        //        res = "Error, very large number!";
-        //    }
-        //    else
-        //    {
-        //        int perv = 1;
-        //        int vtor = 1;
-        //        int sum = 0;
-        //        int i = 2;
-        //        while (i <= numN)
-        //        {
-        //            sum = perv + vtor;
-        //            perv = vtor;
-        //            vtor = sum;
-        //            i++;
-        //        }
-        //        res = $"Number of row Fibonachi- {numN} {perv}";
-        //    }
-        //    return res;
-        //}
-
-
-        //public static double FindDivisorEuclidAlgorithm(double numA, double numB)
-        //{
-        //    double res;
-        //    {
-        //        while (numA != numB)
-        //        {
-        //            if (numA > numB)
-        //            {
-        //                double evclid = numA;
-        //                numA = numB;
-        //                numB = evclid;
-        //            }
-        //            numB = numB - numA;
-        //        }
-        //        res = numA;
-        //    }
-        //    return res;
-        //}
+        public static double FindDivisorEuclidAlgorithm(double numA, double numB)
+        {
+            double res;
+            {
+                while (numA != numB)
+                {
+                    if (numA > numB)
+                    {
+                        double evclid = numA;
+                        numA = numB;
+                        numB = evclid;
+                    }
+                    numB = numB - numA;
+                }
+                res = numA;
+            }
+            return res;
+        }
 
         public static int FindPositiveInteger(int y)
         {

@@ -4,9 +4,8 @@ using System.Text;
 
 namespace HomeTask
 {
-   public static class Array
+    public static class Array
     {
-
         public static int GetMaxNumber(int[] arr1)
         {
             int max = arr1[0];
@@ -87,7 +86,6 @@ namespace HomeTask
             return reverceArray;
         }
 
-
         public static int CountOddElementsByArray(ref int[] arr1)
         {
             int reverceArray = 0;
@@ -102,86 +100,66 @@ namespace HomeTask
             return reverceArray;
         }
 
-
-        //public static int SortArray(ref int[] arr1)
-        //{
-        //}
-
-        /*      
-
-        //8. Поменять местами первую и вторую половину массива, например, для массива 1 2 3 4, результат 3 4 1 2,  или для 12345 - 45312.
-        //9. Отсортировать массив по возрастанию одним из способов: пузырьком(Bubble), выбором(Select) или вставками(Insert)) 
-
-
-        //            int[] arr9 = new int[15];
-        //            Random random10 = new Random();
-
-        //            for (int i = 0; i < arr9.Length; i++)
-        //            {
-        //                arr9[i] = random10.Next(10, 50);
-        //                //Console.WriteLine(arr10[i]);
-        //            }
-
-
-        //            var len = arr9.Length;
-        //            for (var i = 1; i < len; i++)
-        //            {
-        //                for (var j = 0; j < len - i; j++)
-        //                {
-        //                    if (array[j] > array[j + 1])
-        //                    {
-        //                        Swap(ref array[j], ref array[j + 1]);
-        //                    }
-        //                }
-        //            }
-
-        //            return array;
-        //        }
-
-
-
-        //        //10. Отсортировать массив по убыванию одним из способов, (отличным от способа в 9 - м задании) :  пузырьком(Bubble), выбором(Select) или вставками(Insert))
-
-                int[] arr10 = new int[15];
-                Random random10 = new Random();
-
-                    for(int i=0; i<arr10.Length; i++)
-                    {
-                        arr10[i] = random10.Next(10, 50);
-                        //Console.WriteLine(arr10[i]);
-                    }
-
-            int tmp;
-            int j;
-
-                    for(int i=1; i<arr10.Length; i++)
-                    {
-                        j = i;
-                        while(j>0 && arr10[j]>arr10[j - 1])
-                        {
-                            tmp = arr10[j];
-                            arr10[j] = arr10[j - 1];
-                            arr10[j - 1] = tmp;
-
-                            j--;
-                        }
-                    }
-
-                    for (int i = 0; i < arr10.Length; i++)
+        public static int[] SortArrayDescending(ref int[] arr1)
         {
-            Console.WriteLine($"{arr10[i]}");
+            int[] arr9 = new int[15];
+            Random random10 = new Random();
+
+            for (int i = 0; i < arr9.Length; i++)
+            {
+                arr9[i] = random10.Next(10, 50);
+            }
+
+            int len = arr9.Length;
+            for (var i = 1; i < len; i++)
+            {
+                for (var j = 0; j < len - i; j++)
+                {
+                    if (arr1[j] > arr1[j + 1])
+                    {
+                        Swap(ref arr9[j], ref arr1[j + 1]);
+                    }
+                }
+            }
+            return arr9;
         }
 
+        private static void Swap(ref int v1, ref int v2)
+        {
+            throw new NotImplementedException();
+        }
 
-        */
+        public static int[] SortArrayDescending(int[] arr1)
+        {
+            int[] arr10 = new int[15];
+            Random random10 = new Random();
 
-        //public static int SortArrayDescending(ref int[] arr1)
-        //{
+            for (int i = 0; i < arr10.Length; i++)
+            {
+                arr10[i] = random10.Next(10, 50);
+            }
 
-        //}
+            int tamp;
+            int j;
 
+            for (int i = 1; i < arr10.Length; i++)
+            {
+                j = i;
+                while (j > 0 && arr10[j] > arr10[j - 1])
+                {
+                    tamp = arr10[j];
+                    arr10[j] = arr10[j - 1];
+                    arr10[j - 1] = tamp;
+                    j--;
+                }
+            }
 
-
+            for (int i = 0; i < arr10.Length; i++)
+            {
+                arr10[i++] = arr10[i];
+            }
+            return arr10;
+        }  
 
 
     }

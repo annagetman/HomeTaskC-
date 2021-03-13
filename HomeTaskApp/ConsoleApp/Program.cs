@@ -52,13 +52,14 @@ namespace ConsoleApp
             //double cyc2 = Cycle.FindDivisorEuclidAlgorithm(5, 4);
             //Console.WriteLine(cyc2);
 
-            int cyc3 = Cycle.FindPositiveInteger(2);
-            Console.WriteLine(cyc3);
+            //int cyc3 = Cycle.FindPositiveInteger(2);
+            //Console.WriteLine(cyc3);
 
             //string cyc4 = DoubleCycle.FindMaxIndexOfArrayElement();
             //Console.WriteLine(cyc4);
+            //int[] PrintGreatestDivisor = Cycle.PrintGreatestDivisor(20);
+            //Console.WriteLine(PrintGreatestDivisor);
 
-            
 
 
 

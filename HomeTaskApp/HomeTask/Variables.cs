@@ -15,6 +15,7 @@ namespace HomeTask
             return res;
         }
 
+
         public static void SwapVariables(ref int numA, ref int numB)
         {
             int numC;
@@ -22,6 +23,7 @@ namespace HomeTask
             numA = numB;
             numB = numC;
         }
+
 
         public static int[] GetDivisionAndRemainder(int numA, int numB)
         {
@@ -38,18 +40,6 @@ namespace HomeTask
             double numX = (numC - numB) / numA;
             return numX;
         }
-
-        //public static (double k, double b) EquationStraightLine(int x1, int y1, int x2, int y2)
-        //{
-        //    if (x1 == x2)
-        //    {
-        //        throw new DivideByZeroException("x1-x2=0");
-        //    }
-        //    double k = (y1 - y2) / (x1 - x2);
-        //    double b = y2 - k * x2;
-        //    return (k, b);
-        //}
-
 
 
         public static double[] EquationStraightLine2(int x1, int y1, int x2, int y2)

@@ -13,8 +13,6 @@ namespace HomeTask
         //Найти количество элементов массива, которые больше всех своих соседей одновременно
         //Отразите массив относительно его главной диагонали
 
-
-
         public static int FindMaxNamberOfArrayElement(int[,] array)
         {
             int max = array[0, 0];
