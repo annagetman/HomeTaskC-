@@ -23,8 +23,8 @@ namespace ConsoleApp
             //int numX = Variables.SolveLinearEquation(2, 6, 5);
             //Console.WriteLine(numX);
 
-            double[] var5 = Variables.EquationStraightLine(2, 6, 5, 2);
-            Console.WriteLine(var5);
+            //double[] var5 = Variables.EquationStraightLine(2, 6, 5, 2);
+            //Console.WriteLine(var5);
 
 
 
@@ -33,15 +33,15 @@ namespace ConsoleApp
             //int branch = Branching.CompareCount(2, 6);
             //Console.WriteLine(branch);
 
-            //int branch2 = Branching.DefineQuarter(5, 6);
-            //Console.WriteLine(branch2);
+            //int branch2 = Branching.DefineQuarter(-2, -3);
+            // Console.WriteLine(branch2);
 
             //int branch3 = Branching.OutputAscending(5, 6, 8);
             //Console.WriteLine(branch3);
 
-            //string v = Branching.PrintUppercaseEntry(8);
-            //string branch5 = v;
-            //Console.WriteLine(branch5);
+            string v = Branching.PrintUppercaseEntry(50);
+            string branch5 = v;
+            Console.WriteLine(branch5);
 
 
             //Cycle
