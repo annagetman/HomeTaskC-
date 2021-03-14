@@ -23,8 +23,8 @@ namespace ConsoleApp
             //int numX = Variables.SolveLinearEquation(2, 6, 5);
             //Console.WriteLine(numX);
 
-            //int var5 = Variables.EquationStraightLine(2, 6, 5, 2);
-            //Console.WriteLine(var5);
+            double[] var5 = Variables.EquationStraightLine(2, 6, 5, 2);
+            Console.WriteLine(var5);
 
 
 

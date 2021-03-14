@@ -7,8 +7,8 @@ namespace NUnitTestProjecTests
     {
 
         [TestCase(3, 4, 245)]
-        //[TestCase(5,3,9)]
-        //[TestCase(5,3,9)]
+        [TestCase(2,3,125)]
+        [TestCase(3,5,160)]
         public void SolveEquation(int numA, int numB, int expected)
         {
             int actual = Variables.SolveEquation(numA, numB);
@@ -29,8 +29,6 @@ namespace NUnitTestProjecTests
         }
 
 
-
-
         [TestCase(4, 2, new int[] { 0, 2 })]
         [TestCase(16, 4, new int[] { 0, 4 })]
         [TestCase(9, 3, new int[] { 0, 3 })]
@@ -40,9 +38,7 @@ namespace NUnitTestProjecTests
 
         public void GetDivisionAndRemainder(int numA, int numB, int[] expected)
         {
-
             int[] actual = Variables.GetDivisionAndRemainder(numA, numB);
-
             Assert.AreEqual(expected, actual);
         }
 
@@ -57,19 +53,13 @@ namespace NUnitTestProjecTests
         }
 
 
-      //  [TestCase(4, 16, 2, 8, new int[] { 4, 0 })]
-        //[TestCase(8, 4, new int[] { 0, 2 })]
-
-
-        public void EquationStraightLine(int x1, int y1, int x2, int y2, double[] expected)
+        [TestCase(4, 16, 2, 8, new double[] { 4, 0 })]
+        [TestCase(3, 17,1, 9, new double[] { 4, 5 })]
+        [TestCase(3, 12, 2, 10, new double[] { 2, 6 })]
+         public void EquationStraightLine(int x1, int y1, int x2, int y2, double[] expected)
         {
-
-
             double[] actual = Variables.EquationStraightLine(x1, y1, x2, y2);
-
             Assert.AreEqual(expected, actual);
-
         }
-
     }
 }
