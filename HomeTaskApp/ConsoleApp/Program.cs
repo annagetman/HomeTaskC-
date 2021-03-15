@@ -39,21 +39,30 @@ namespace ConsoleApp
             //int branch3 = Branching.OutputAscending(5, 6, 8);
             //Console.WriteLine(branch3);
 
-            string v = Branching.PrintUppercaseEntry(50);
-            string branch5 = v;
-            Console.WriteLine(branch5);
+            //string v = Branching.PrintUppercaseEntry(85);
+            //string branch5 = v;
+            //Console.WriteLine(v);
 
 
             //Cycle
 
-            //int cyc = Cycle.SquareNumber(5, 6);
+            //int cyc = Cycle.SquareNumber(5, 4);
             //Console.WriteLine(cyc);
+
+            //int[] cyc = Cycle.DisplayNumbersThatDivisibleBynumA(200);
+            //Console.WriteLine(cyc);
+
+            //int cyc2 = Cycle.FindPositiveInteger(45);
+            //Console.WriteLine(cyc2);
 
             //double cyc2 = Cycle.FindDivisorEuclidAlgorithm(5, 4);
             //Console.WriteLine(cyc2);
 
             //int cyc3 = Cycle.FindPositiveInteger(2);
             //Console.WriteLine(cyc3);
+
+            int[] cyc3 = Cycle.PrintNumbersDivisibleBy7(7,14);
+            Console.WriteLine(cyc3);
 
             //string cyc4 = DoubleCycle.FindMaxIndexOfArrayElement();
             //Console.WriteLine(cyc4);

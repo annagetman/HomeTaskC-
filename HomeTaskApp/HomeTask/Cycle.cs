@@ -8,7 +8,7 @@ namespace HomeTask
     {
         public static int SquareNumber(int numA, int numB)
         {
-            for (int i = 0; i <= numB; i++)
+            for (int i = 1; i < numB; i++)
             {
                 numA *= numB;
             }
@@ -17,30 +17,33 @@ namespace HomeTask
 
         public static int[] DisplayNumbersThatDivisibleBynumA(int numA)
         {
-            int[] res = new int[0];
-            for (int i = 1; i <= 1000; i++)
-            {
-                if (i % numA == 0)
-                {
-                    res[i++] =i;
-                }
-            }
-            return res;
-        }
+            int[] array = new int[1000 / numA];
+            int j = 0;
 
-        public static int[] FindPositiveNumbers(int numA)
-        {
-            int[] res = new int[0];
-            for (int i = 1; i < numA; i++)
-            {
-                if (numA > 0 && i * i < numA)
+            if (numA != 0 && numA <= 1000)
+            {       
+                for (int i = numA; i <= 1000; i += numA)
                 {
-                    res[i++] = i;
-                }
+                    array[j] = i;
+                    ++j;
+                }           
             }
-            return res;
-
+            return array;
         }
+        
+        //public static int[] FindPositiveNumbers(int numA)
+        //{
+        //    int[] res = new int[0];
+        //    for (int i = 1; i < numA; i++)
+        //    {
+        //        if (numA > 0 && i * i < numA)
+        //        {
+        //            res[i++] = i;
+        //        }
+        //    }
+        //    return res;
+
+        //}
 
         public static int[] PrintGreatestDivisor(int numA)
         {
@@ -59,7 +62,9 @@ namespace HomeTask
 
         public static int[] PrintNumbersDivisibleBy7(int numA, int numB)
         {
-            int[] res = new int[0];
+            int[] res = new int[2];
+            Random r = new Random();
+          
             if (numA < numB)
             {
                 for (int i = 1; i < numB; i++)
@@ -143,7 +148,7 @@ namespace HomeTask
         public static string FindNumberOddDigitsOfThisNumber(string numN)
         {
             string res = string.Empty;
-            for (int i = 1; i < numN.Length; i++)
+            for (int i = 0; i < numN.Length; i++)
             {
                 if (numN[i] % 2 != 0)
                 {
