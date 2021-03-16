@@ -58,7 +58,7 @@ namespace ConsoleApp
             //double cyc2 = Cycle.FindDivisorEuclidAlgorithm(5, 4);
             //Console.WriteLine(cyc2);
 
-            int cyc3 = Cycle.PrintGreatestDivisor(25);
+            int cyc3 = Cycle.FindPositiveNumbers(17);
             Console.WriteLine(cyc3);
 
             //int cyc3 = Cycle.GetMaxNumber(int[] {7,2,1});

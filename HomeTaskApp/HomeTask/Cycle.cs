@@ -21,48 +21,51 @@ namespace HomeTask
             int j = 0;
 
             if (numA != 0 && numA <= 1000)
-            {       
+            {
                 for (int i = numA; i <= 1000; i += numA)
                 {
                     array[j] = i;
                     ++j;
-                }           
+                }
             }
             return array;
         }
-        
-        //public static int[] FindPositiveNumbers(int numA)
-        //{
-        //    int[] res = new int[0];
-        //    for (int i = 1; i < numA; i++)
-        //    {
-        //        if (numA > 0 && i * i < numA)
-        //        {
-        //            res[i++] = i;
-        //        }
-        //    }
-        //    return res;
 
-        //}
+        public static int FindPositiveNumbers(int numA)
+        {
+            int res = 0; 
+            for (int i = 1; i <= numA; i++)
+            {
+                if (numA > 0 && i * i < numA)
+                {
+                    res++;
+                }
+            }
+            return res;
+
+        }
 
         public static int PrintGreatestDivisor(int numA)
         {
-            int res =0;
-            for (int i = 0; i < numA; i++)
+            int res = 1;
+
+            for (int i = numA/2; i>=1; i-- )
             {
                 if (numA % i == 0)
                 {
-                    res+= i;
+                    res = i;
+                    break;
                 }
             }
-          
+
+            return res;
         }
 
 
         public static int PrintNumbersDivisibleBy7(int numA, int numB)
         {
             int sum = 0;
-          
+
             if (numA < numB)
             {
                 for (int i = 1; i < numB; i++)
@@ -70,13 +73,13 @@ namespace HomeTask
                     if (i % 7 == 0)
                     {
                         sum += i;
-                        
+
                     }
                 }
                 return sum;
             }
 
-           else if  (numA > numB)
+            else if (numA > numB)
             {
                 for (int i = 1; i < numA; i++)
                 {
@@ -100,25 +103,25 @@ namespace HomeTask
             string res = string.Empty;
             if (numN > 48 || numN <= 0)
             {
-                 throw new Exception ("Error, very large number!");
+                throw new Exception("Error, very large number!");
             }
-           
-                int a = 1;
-                int b = 1;
-                int Nfib;
+
+            int a = 1;
+            int b = 1;
+            int Nfib;
 
 
-                for (int i = 1; i < numN; i++)
-                {
-                    Nfib = a;
-                    a = b;
-                    b += Nfib;
-                }
-                return b;
-            
+            for (int i = 1; i < numN; i++)
+            {
+                Nfib = a;
+                a = b;
+                b += Nfib;
+            }
+            return b;
+
         }
 
-        
+
         public static double FindDivisorEuclidAlgorithm(double numA, double numB)
         {
             double res;
@@ -222,6 +225,6 @@ namespace HomeTask
     }
 }
 
-        
-        
+
+
 
