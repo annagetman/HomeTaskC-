@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HomeTask\HomeTask.csproj" />
+    <ProjectReference Include="..\NUnitTestProjectTests\NUnitTestProjectTests.csproj" />
   </ItemGroup>
 
 </Project>

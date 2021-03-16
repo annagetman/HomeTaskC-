@@ -45,25 +45,23 @@ namespace HomeTask
 
         //}
 
-        public static int[] PrintGreatestDivisor(int numA)
+        public static int PrintGreatestDivisor(int numA)
         {
-            double del;
-            int[] res = new int[0];
+            int res =0;
             for (int i = 0; i < numA; i++)
             {
                 if (numA % i == 0)
                 {
-                    res[i++] = i;
+                    res+= i;
                 }
             }
-            return res;
+          
         }
 
 
-        public static int[] PrintNumbersDivisibleBy7(int numA, int numB)
+        public static int PrintNumbersDivisibleBy7(int numA, int numB)
         {
-            int[] res = new int[2];
-            Random r = new Random();
+            int sum = 0;
           
             if (numA < numB)
             {
@@ -71,40 +69,56 @@ namespace HomeTask
                 {
                     if (i % 7 == 0)
                     {
-                        res[i++] = i;
+                        sum += i;
+                        
                     }
                 }
+                return sum;
             }
-            return res;
+
+           else if  (numA > numB)
+            {
+                for (int i = 1; i < numA; i++)
+                {
+                    if (i % 7 == 0)
+                    {
+                        sum += i;
+
+                    }
+                }
+                return sum;
+            }
+            else
+            {
+                throw new Exception("a=b");
+            }
         }
 
 
-        public static string PrintNumbersfibonacci(int numN)
+        public static int PrintNumbersfibonacci(int numN)
         {
             string res = string.Empty;
             if (numN > 48 || numN <= 0)
             {
-                res = "Error, very large number!";
+                 throw new Exception ("Error, very large number!");
             }
-            else
-            {
-                int perv = 1;
-                int vtor = 1;
-                int sum = 0;
-                int i = 2;
-                while (i <= numN)
+           
+                int a = 1;
+                int b = 1;
+                int Nfib;
+
+
+                for (int i = 1; i < numN; i++)
                 {
-                    sum = perv + vtor;
-                    perv = vtor;
-                    vtor = sum;
-                    i++;
+                    Nfib = a;
+                    a = b;
+                    b += Nfib;
                 }
-                res = $"Number of row Fibonachi- {numN} {perv}";
-            }
-            return res;
+                return b;
+            
         }
 
-
+        
         public static double FindDivisorEuclidAlgorithm(double numA, double numB)
         {
             double res;

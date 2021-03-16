@@ -2,7 +2,6 @@ G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\obj\Debug\netcoreapp3.1\NUnitTe
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\obj\Debug\netcoreapp3.1\NUnitTestProjectTests.AssemblyInfoInputs.cache
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\obj\Debug\netcoreapp3.1\NUnitTestProjectTests.AssemblyInfo.cs
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\obj\Debug\netcoreapp3.1\NUnitTestProjectTests.csproj.CoreCompileInputs.cache
-G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\ConsoleApp.exe
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\nunit.engine.dll
@@ -91,9 +90,7 @@ G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\zh-Hans
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\ConsoleApp.dll
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\HomeTask.dll
-G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\bin\Debug\netcoreapp3.1\HomeTask.pdb
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\obj\Debug\netcoreapp3.1\NUnitTestProjectTests.csproj.CopyComplete
 G:\ann\work\C#\HomeTaskApp\NUnitTestProjectTests\obj\Debug\netcoreapp3.1\NUnitTestProjectTests.dll

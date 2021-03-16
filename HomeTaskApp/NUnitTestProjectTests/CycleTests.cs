@@ -18,14 +18,12 @@ namespace NUnitTestProjecTests
         }
 
 
-        // [TestCase(200, new int[] {  })]
-        //[TestCase(500, new int[] {  })]
-        //[TestCase(700 new int[] { 0, 2 })]
-        //public void DisplayNumbersThatDivisibleBynumA(int numA, int[] expected)
-        //{
-        //    int[] actual = Cycle.DisplayNumbersThatDivisibleBynumA(numA);
-        //    Assert.AreEqual(expected, actual);
-        //}
+     
+
+
+
+
+
 
         
 
@@ -38,9 +36,6 @@ namespace NUnitTestProjecTests
             double actual = Cycle.FindDivisorEuclidAlgorithm(numA, numB);
             Assert.AreEqual(expected, actual);
         }
-
-
-
 
         [TestCase(343, 7)]
         [TestCase(125, 5)]

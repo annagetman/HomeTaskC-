@@ -76,7 +76,7 @@ namespace HomeTask
             return sumOddIndexArr;
         }
 
-        public static int GetReverceArray(ref int[] arr1)
+        public static int GetReverceArray(int[] arr1)
         {
             int reverceArray = arr1[0];
 
@@ -87,7 +87,7 @@ namespace HomeTask
             return reverceArray;
         }
 
-        public static int CountOddElementsByArray(ref int[] arr1)
+        public static int CountOddElementsByArray(int[] arr1)
         {
             int reverceArray = 0;
 
@@ -101,7 +101,7 @@ namespace HomeTask
             return reverceArray;
         }
 
-        public static int[] SortArrayDescending(ref int[] arr1)
+        public static int[] SortArrayDescending(int[] arr1)
         {
             int[] arr9 = new int[15];
             Random random10 = new Random();
@@ -130,37 +130,37 @@ namespace HomeTask
             throw new NotImplementedException();
         }
 
-        public static int[] SortArrayDescending(int[] arr1)
-        {
-            int[] arr10 = new int[15];
-            Random random10 = new Random();
+        //public static int[] SortArrayDescending(int[] arr1)
+        //{
+        //    int[] arr10 = new int[15];
+        //    Random random10 = new Random();
 
-            for (int i = 0; i < arr10.Length; i++)
-            {
-                arr10[i] = random10.Next(10, 50);
-            }
+        //    for (int i = 0; i < arr10.Length; i++)
+        //    {
+        //        arr10[i] = random10.Next(10, 50);
+        //    }
 
-            int tamp;
-            int j;
+        //    int tamp;
+        //    int j;
 
-            for (int i = 1; i < arr10.Length; i++)
-            {
-                j = i;
-                while (j > 0 && arr10[j] > arr10[j - 1])
-                {
-                    tamp = arr10[j];
-                    arr10[j] = arr10[j - 1];
-                    arr10[j - 1] = tamp;
-                    j--;
-                }
-            }
+        //    for (int i = 1; i < arr10.Length; i++)
+        //    {
+        //        j = i;
+        //        while (j > 0 && arr10[j] > arr10[j - 1])
+        //        {
+        //            tamp = arr10[j];
+        //            arr10[j] = arr10[j - 1];
+        //            arr10[j - 1] = tamp;
+        //            j--;
+        //        }
+        //    }
 
-            for (int i = 0; i < arr10.Length; i++)
-            {
-                arr10[i++] = arr10[i];
-            }
-            return arr10;
-        }  
+        //    for (int i = 0; i < arr10.Length; i++)
+        //    {
+        //        arr10[i++] = arr10[i];
+        //    }
+        //    return arr10;
+        //}  
 
 
     }

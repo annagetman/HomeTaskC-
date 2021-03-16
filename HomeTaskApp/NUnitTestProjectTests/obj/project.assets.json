@@ -1226,19 +1226,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "ConsoleApp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "HomeTask": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ConsoleApp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ConsoleApp.dll": {}
-        }
-      },
       "HomeTask/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -4637,11 +4624,6 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "ConsoleApp/1.0.0": {
-      "type": "project",
-      "path": "../ConsoleApp/ConsoleApp.csproj",
-      "msbuildProject": "../ConsoleApp/ConsoleApp.csproj"
-    },
     "HomeTask/1.0.0": {
       "type": "project",
       "path": "../HomeTask/HomeTask.csproj",
@@ -4650,7 +4632,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ConsoleApp >= 1.0.0",
       "HomeTask >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
@@ -4684,9 +4665,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "G:\\ann\\work\\C#\\HomeTaskApp\\ConsoleApp\\ConsoleApp.csproj": {
-              "projectPath": "G:\\ann\\work\\C#\\HomeTaskApp\\ConsoleApp\\ConsoleApp.csproj"
-            },
             "G:\\ann\\work\\C#\\HomeTaskApp\\HomeTask\\HomeTask.csproj": {
               "projectPath": "G:\\ann\\work\\C#\\HomeTaskApp\\HomeTask\\HomeTask.csproj"
             }
