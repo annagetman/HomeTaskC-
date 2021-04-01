@@ -41,10 +41,10 @@ namespace WindowsFormsApp1
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.buttonMinus = new System.Windows.Forms.Button();
+            this.buttonMultiply = new System.Windows.Forms.Button();
+            this.buttonDivision = new System.Windows.Forms.Button();
+            this.buttonPlus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -155,55 +155,55 @@ namespace WindowsFormsApp1
             this.button11.Text = "rezult";
             this.button11.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // buttonMinus
             // 
-            this.button13.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button13.Location = new System.Drawing.Point(244, 82);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(42, 23);
-            this.button13.TabIndex = 13;
-            this.button13.Text = "-";
-            this.button13.UseVisualStyleBackColor = false;
+            this.buttonMinus.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.buttonMinus.Location = new System.Drawing.Point(244, 82);
+            this.buttonMinus.Name = "buttonMinus";
+            this.buttonMinus.Size = new System.Drawing.Size(42, 23);
+            this.buttonMinus.TabIndex = 13;
+            this.buttonMinus.Text = "-";
+            this.buttonMinus.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // buttonMultiply
             // 
-            this.button14.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button14.Location = new System.Drawing.Point(244, 53);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(42, 23);
-            this.button14.TabIndex = 14;
-            this.button14.Text = "*";
-            this.button14.UseVisualStyleBackColor = false;
+            this.buttonMultiply.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.buttonMultiply.Location = new System.Drawing.Point(244, 53);
+            this.buttonMultiply.Name = "buttonMultiply";
+            this.buttonMultiply.Size = new System.Drawing.Size(42, 23);
+            this.buttonMultiply.TabIndex = 14;
+            this.buttonMultiply.Text = "*";
+            this.buttonMultiply.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // buttonDivision
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button15.Location = new System.Drawing.Point(244, 24);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(42, 23);
-            this.button15.TabIndex = 15;
-            this.button15.Text = "/";
-            this.button15.UseVisualStyleBackColor = false;
+            this.buttonDivision.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.buttonDivision.Location = new System.Drawing.Point(244, 24);
+            this.buttonDivision.Name = "buttonDivision";
+            this.buttonDivision.Size = new System.Drawing.Size(42, 23);
+            this.buttonDivision.TabIndex = 15;
+            this.buttonDivision.Text = "/";
+            this.buttonDivision.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // buttonPlus
             // 
-            this.button16.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button16.Location = new System.Drawing.Point(244, 111);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(42, 23);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "+";
-            this.button16.UseVisualStyleBackColor = false;
+            this.buttonPlus.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.buttonPlus.Location = new System.Drawing.Point(244, 111);
+            this.buttonPlus.Name = "buttonPlus";
+            this.buttonPlus.Size = new System.Drawing.Size(42, 23);
+            this.buttonPlus.TabIndex = 16;
+            this.buttonPlus.Text = "+";
+            this.buttonPlus.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(508, 450);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.buttonPlus);
+            this.Controls.Add(this.buttonDivision);
+            this.Controls.Add(this.buttonMultiply);
+            this.Controls.Add(this.buttonMinus);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -238,10 +238,10 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button buttonMinus;
+        private System.Windows.Forms.Button buttonMultiply;
+        private System.Windows.Forms.Button buttonDivision;
+        private System.Windows.Forms.Button buttonPlus;
     }
 }
 
