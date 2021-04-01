@@ -15,6 +15,21 @@ namespace NUnitTestProjecTests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestCase(0)]
+        [TestCase(8)]
+        public static void FlipArrayDiagonally_WhenArrayPassed_ReturnArgumentExceptio(int numA, int numB)
+        {
+            Assert.Throws<Exception>(() =>
+            {
+                int num = DoubleArrayMock.GetMock(mockNumber);
+                int actual = Variables.SolveEquation();
+            });
+        }
+
+
+
+
+
 
         [TestCase(3, 4, 4, 3)]
         [TestCase(5, 3, 3, 5)]
@@ -61,5 +76,12 @@ namespace NUnitTestProjecTests
             double[] actual = Variables.EquationStraightLine(x1, y1, x2, y2);
             Assert.AreEqual(expected, actual);
         }
+
+
+
+
+
+
+
     }
 }
