@@ -1,0 +1,10 @@
+G:\ann\work\C#\WindowsFormsAppLine\bin\Debug\WindowsFormsAppLine.exe.config
+G:\ann\work\C#\WindowsFormsAppLine\bin\Debug\WindowsFormsAppLine.exe
+G:\ann\work\C#\WindowsFormsAppLine\bin\Debug\WindowsFormsAppLine.pdb
+G:\ann\work\C#\WindowsFormsAppLine\obj\Debug\WindowsFormsAppLine.csprojAssemblyReference.cache
+G:\ann\work\C#\WindowsFormsAppLine\obj\Debug\WindowsFormsAppLine.Form1.resources
+G:\ann\work\C#\WindowsFormsAppLine\obj\Debug\WindowsFormsAppLine.Properties.Resources.resources
+G:\ann\work\C#\WindowsFormsAppLine\obj\Debug\WindowsFormsAppLine.csproj.GenerateResource.cache
+G:\ann\work\C#\WindowsFormsAppLine\obj\Debug\WindowsFormsAppLine.csproj.CoreCompileInputs.cache
+G:\ann\work\C#\WindowsFormsAppLine\obj\Debug\WindowsFormsAppLine.exe
+G:\ann\work\C#\WindowsFormsAppLine\obj\Debug\WindowsFormsAppLine.pdb
